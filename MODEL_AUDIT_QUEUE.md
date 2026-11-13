@@ -7,9 +7,10 @@
 ## Instructions for every reviewing model
 
 1. Read `MODEL_AUDIT_ROUTER.md` in the target repository first.
-2. Work read-only. Do not commit, push, open/close/merge PRs, delete files, replace datasets, or rewrite READMEs.
-3. Inspect the exact default-branch HEAD and every relevant open/closed PR head. A PR title is not evidence of implementation.
-4. Treat real/user-provided datasets as protected. Never replace real data with fabricated, generated, synthetic or placeholder records. Trace source, licence, collection date and transformation history. If provenance cannot be proven, preserve the data and mark it `unknown/unverified`; do not invent replacements.
+2. Read [DATA_PROVENANCE_PRIORITY.md](DATA_PROVENANCE_PRIORITY.md) for data-heavy repositories and known risks.
+3. Work read-only. Do not commit, push, open/close/merge PRs, delete files, replace datasets, or rewrite READMEs.
+4. Inspect the exact default-branch HEAD and every relevant open/closed PR head. A PR title is not evidence of implementation.
+5. Treat real/user-provided datasets as protected. Never replace real data with fabricated, generated, synthetic or placeholder records. Trace source, licence, collection date and transformation history. If provenance cannot be proven, preserve the data and mark it `unknown/unverified`; do not invent replacements.
 5. Preserve maintainer-authored README content. AI notes may appear only as a clearly labelled, dated secondary section at the very bottom.
 6. Separate merged work, open proposals, closed-unmerged work, reverted changes and unverifiable claims.
 7. Run tests only where safe, with dependencies and environment documented. Report exact commands and outputs on the exact commit.
