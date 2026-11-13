@@ -69,7 +69,7 @@ These READMEs did not have a recent AI overwrite on the default branch in the in
 
 ARK's main README is protected by branch rules; its AI note is on the open documentation PR branch rather than a direct default-branch update.
 
-## Open documentation PR README preservation
+## Open PR README preservation
 
 Where a documentation-kit or other documentation-focused PR changed `README.md`, the PR branch was updated to match the preserved/default-branch README plus the secondary AI notes, rather than reintroducing the AI rewrite. This was completed for these PRs:
 
