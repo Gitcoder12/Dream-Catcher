@@ -6,9 +6,10 @@ Your mission is to audit the repository assigned to you against the exact curren
 
 ## Start here
 1. Read `MODEL_AUDIT_ROUTER.md` in the repository.
-2. Read the repository README, then inspect its Git history to identify the last maintainer-authored version before AI-generated edits.
-3. Record repository URL, default branch, current HEAD SHA, whether it is an upstream fork, and all relevant open/closed PRs with exact head SHAs.
-4. Inspect the actual source tree, entry points, runtime data, tests, workflows, dependencies, licenses and demo links. Do not rely on the README alone.
+2. Read [DATA_PROVENANCE_PRIORITY.md](DATA_PROVENANCE_PRIORITY.md) for known high-risk data flows.
+3. Read the repository README, then inspect its Git history to identify the last maintainer-authored version before AI-generated edits.
+4. Record repository URL, default branch, current HEAD SHA, whether it is an upstream fork, and all relevant open/closed PRs with exact head SHAs.
+5. Inspect the actual source tree, entry points, runtime data, tests, workflows, dependencies, licenses and demo links. Do not rely on the README alone.
 
 ## Zero-tolerance rules
 - Never replace real, user-provided or maintainer-provided data with synthetic, generated, fabricated or placeholder data.
