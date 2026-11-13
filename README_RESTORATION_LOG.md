@@ -1,11 +1,11 @@
 # README Restoration and Preservation Log
 
 **Snapshot:** 2026-11-13  
-**Policy:** Preserve the last maintainer-authored README version from Git history; append AI-generated explanation only as a secondary section at the bottom. Never silently replace the original.
+**Policy:** Preserve the pre-AI / pre-rewrite README version recovered from Git history; append AI-generated explanation only as a secondary section at the bottom. Verify commit author metadata before describing it as maintainer-authored. Never silently replace the historical baseline.
 
 ## Restored README baselines
 
-The following files were restored verbatim from the named pre-AI Git-history baseline, then given a separately labelled AI-maintained notes section at the bottom. The baseline is preserved exactly; historical claims are not independently certified by this restoration.
+The following files were restored verbatim from the named pre-AI README-change Git-history baseline, then given a separately labelled AI-maintained notes section at the bottom. The baseline is preserved exactly; historical claims are not independently certified by this restoration.
 
 | Repository | Pre-AI baseline commit |
 |---|---|
