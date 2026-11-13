@@ -21,3 +21,11 @@ Company/repository matches are prospective skills fit, not claims of adoption, e
 | YYYY-MM-DD | name | company/project | URL | summary | date/role/claim caveats |
 
 Refresh monthly and before every application campaign. Record source publication date and date checked separately.
+
+## Portfolio documentation rollout — 2026-11-13
+
+- Documentation PR: https://github.com/Gitcoder12/Dream-Catcher/pull/1
+- Added project-specific feature roadmap, company-fit guide, beginner/technical README explanation and README quality checklist.
+- Added contribution guidance and scoped agent/skills notes while preserving project-specific limitations and upstream instructions where applicable.
+- Validation: documentation/source review only; no application runtime test, backup restore, hosted service or deployment is claimed by this docs PR.
+- Status: draft PR, not merged.
