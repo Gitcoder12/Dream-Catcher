@@ -41,3 +41,5 @@ The repository maintains structured company profiles, source URLs, source dates,
 
 For future work, see [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Documentation rollout PR index](DOCUMENTATION_ROLLOUT.md)
+- [Agent instructions](AGENTS.md)
+- [Agent skills](SKILLS.md)
