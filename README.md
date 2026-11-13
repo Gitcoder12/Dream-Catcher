@@ -20,3 +20,11 @@ Research snapshot: 2026-11-13. Company matches are hypotheses, not evidence of a
 - [Company and research intelligence](COMPANY_INTELLIGENCE.md)
 - [Portfolio-to-company opportunity map](OPPORTUNITY_MAP.md)
 - [Research update log](RESEARCH_LOG.md)
+
+## Operating handbook
+
+- [Activity log](ACTIVITY_LOG.md)
+- [Feature upgrade plan](FEATURE_UPGRADE_PLAN.md)
+- [Company and team fit](COMPANY_FIT.md)
+- [README explanation draft](README_ADDENDUM_DRAFT.md)
+- [README quality checklist](README_QUALITY_CHECKLIST.md)
