@@ -29,3 +29,12 @@ Refresh monthly and before every application campaign. Record source publication
 - Added contribution guidance and scoped agent/skills notes while preserving project-specific limitations and upstream instructions where applicable.
 - Validation: documentation/source review only; no application runtime test, backup restore, hosted service or deployment is claimed by this docs PR.
 - Status: draft PR, not merged.
+
+## Portfolio operating-system expansion — 2026-11-13
+
+- Updated the actual README with a two-level guide for newcomers and technical/research reviewers.
+- Added DOCUMENTATION_ROLLOUT.md linking the 59 active-repository documentation PRs and recording the two archived repositories left untouched.
+- Added AGENTS.md and SKILLS.md for safe public-source company research, attribution, privacy and repository-to-role mapping.
+- Updated README links to the documentation index and agent guidance.
+- Changes are part of [Dream-Catcher PR #1](https://github.com/Gitcoder12/Dream-Catcher/pull/1), which remains a draft for review.
+- Validation: source/Markdown review only; no merge or deployment performed.
