@@ -17,8 +17,9 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 | `COMPANY_DIRECTORY.md` | Human-readable overview of target companies and their official entry points | `data/companies.csv` |
 | `data/companies.csv` | One canonical row per employer/company group | Company identity and official URLs |
 | `data/company_updates.csv` | Dated, source-linked public company announcements | Official company newsroom/blog |
-| `data/public_people.csv` | Publicly documented leadership, project authors and explicitly public recruiting contacts | Official bios, public project credits or official hiring pages |
+| `data/public_people.csv` | Publicly documented leaders and credited project authors | Official bios or public project credits |
 | `data/recruiting_channels.csv` | Official careers portals and public recruiting channels | Company-owned careers pages |
+| `data/recruiters.csv` | Named recruiters only when their public recruiting role is verified | Public professional profile plus company-linked source |
 | `REPOSITORY_TARGET_MATRIX.md` | Provisional portfolio skills-fit mapping | Exact repository links; validate code before applications |
 | `AI-WORKNOTES.md` | AI decisions, work log, limitations and next actions | Append dated entries here |
 
@@ -28,7 +29,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Do not put AI-generated sections, status notes or navigation lists in `README.md`.
 - Do not maintain a second company list in prose when the canonical CSV already contains the records.
 - Add updates as rows to `data/company_updates.csv`; do not create a new weekly/monthly file for every refresh.
-- Add public recruiting contacts to `data/public_people.csv` only when their recruiting role and public source are explicitly verified. General careers portals belong in `data/recruiting_channels.csv`.
+- Add named recruiters only to `data/recruiters.csv` when their recruiting role and public profile are explicitly verified. General careers portals belong in `data/recruiting_channels.csv`.
 
 ## Evidence and privacy rules
 
@@ -58,7 +59,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - The default branch contains a short original README plus portfolio-wide audit notes that are not specific to Dream-Catcher.
 - Two draft PRs existed: PR #1 contained a broad 16-file documentation rollout; PR #2 contained a smaller overlapping company list.
 - This refactor uses PR #2's branch as the single working branch and consolidates the company/recruiter/update data into one structure.
-- X/LinkedIn follow lists are out of scope. Latest public company updates are included when an official source and date are available.
+- X/LinkedIn follow lists are out of scope. The update feed currently has 13 sourced entries across a subset of the 21 company groups; it is a seed snapshot, not exhaustive coverage.
 - No recruiter identities have been invented. The recruiting-channel file records official application routes; `data/recruiters.csv` is the dedicated recruiter register and currently contains only its schema because no individual recruiter record has yet been verified from an official/public professional source.
 - The original README text is restored without AI notes.
 
@@ -69,7 +70,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Added a dated public updates feed, public people register and official recruiting-channel register.
 - Kept the 61-row repository-fit matrix as a provisional mapping, not a functionality certification.
 - Moved AI-maintained notes into this file and removed the AI addendum from README.
-- Closed the duplicate documentation PR after preserving the relevant company/repository research in the canonical structure.
+- The duplicate broad documentation PR is scheduled to be closed after this consolidated PR is ready; its useful company and repository research has been preserved in the canonical structure.
 - Validation performed: source/link spot-checks and structural CSV review. No application build or runtime tests apply to this documentation/data-only change.
 
 ### Recruiter register
