@@ -34,7 +34,7 @@ The interview questions are original company-aligned practice prompts. They are 
 
 The refresh script updates public repository metadata and reads configured official company RSS/Atom feeds. New feed items are marked for review and their original links are kept. Companies without a verified feed remain on the manual source list; the updater does not invent updates.
 
-The scheduled GitHub Actions workflow runs daily after it is enabled on the default branch. It writes only to the existing review branch, never to `main`.
+The scheduled GitHub Actions workflow runs daily after it is enabled on the default branch. Eleven official RSS/Atom feeds are enabled; the remaining company pages are checked manually until a reliable feed is confirmed. It writes only to the existing review branch, never to `main`.
 
 ## Accuracy rules
 

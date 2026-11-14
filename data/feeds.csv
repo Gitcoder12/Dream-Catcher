@@ -7,9 +7,9 @@ microsoft,Microsoft,https://www.microsoft.com/en-us/research/feed/,rss,true,offi
 amazon-aws,Amazon / AWS,https://aws.amazon.com/blogs/machine-learning/feed/,rss,true,official_company_feed,Official AWS Machine Learning blog feed
 nvidia,NVIDIA,https://blogs.nvidia.com/feed/,rss,true,official_company_feed,Official NVIDIA blog feed
 qualcomm,Qualcomm,,manual,false,manual_source_page,No feed configured; check official newsroom and research pages manually
-ibm,IBM,,manual,false,manual_source_page,No direct official feed configured; check newsroom and research pages manually
+ibm,IBM,https://newsroom.ibm.com/latest-news-artificial-intelligence?l=50&o=200&output=rss,rss,true,official_company_feed,Official IBM Newsroom artificial intelligence RSS feed
 hugging-face,Hugging Face,https://huggingface.co/blog/feed.xml,atom,true,official_company_feed,Official Hugging Face blog feed
-databricks,Databricks,https://docs.databricks.com/aws/en/feed.xml,atom,true,official_company_feed,Official documentation update feed; product documentation scope only
+databricks,Databricks,https://www.databricks.com/feed,rss,true,official_company_feed,Official Databricks company blog feed
 google-cloud,Google Cloud,https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/,rss,true,official_company_feed,Official Google Cloud AI and machine-learning blog feed
 github,GitHub,https://github.blog/changelog/feed/,rss,true,official_company_feed,Official GitHub Changelog feed
 figure-ai,Figure AI,,manual,false,manual_source_page,No feed configured; check official news page manually
