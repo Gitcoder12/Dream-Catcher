@@ -4,7 +4,7 @@
 **Snapshot:** 2026-11-14  
 **Coverage:** 21 selected employer groups across frontier AI, AI infrastructure, developer tools, robotics and Indian engineering.
 
-This is a curated target list, not a ranking, complete market map, list of companies the maintainer follows, or evidence of hiring interest. The canonical structured records live in [data/companies.csv](data/companies.csv). Public updates are in [data/updates.csv](data/updates.csv); official hiring routes are in [data/careers.csv](data/careers.csv); public leadership/project-credit records are in [data/people.csv](data/people.csv); named public recruiters, when verified, belong in [data/recruiters.csv](data/recruiters.csv).
+This is a curated target list, not a ranking, complete market map, list of companies the maintainer follows, or evidence of hiring interest. The canonical structured records live in [data/companies.csv](data/companies.csv). Public updates are in [data/updates.csv](data/updates.csv); interview practice is in [data/interviews.csv](data/interviews.csv); public repository metadata is in [data/repos.csv](data/repos.csv); official hiring routes are in [data/careers.csv](data/careers.csv); public leadership/project-credit records are in [data/people.csv](data/people.csv); named public recruiters, when verified, belong in [data/recruiters.csv](data/recruiters.csv).
 
 | Company | Main technical areas to investigate | Official careers / hiring route | Latest-update tracking |
 |---|---|---|---|

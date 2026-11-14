@@ -1,0 +1,44 @@
+name: Refresh public company and repository data
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dream-catcher-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the single review branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/social-company-import-foundation
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public repository data and official feeds
+        run: python scripts/refresh.py
+
+      - name: Commit refresh results to the same branch
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- data/repos.csv data/updates.csv data/refresh_status.csv)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/repos.csv data/updates.csv data/refresh_status.csv
+            git commit -m "chore: refresh public company and repository data"
+            git push origin HEAD:research/social-company-import-foundation
+          else
+            echo "No public data changes."
+          fi
