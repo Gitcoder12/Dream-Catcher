@@ -2,7 +2,7 @@
 
 **Maintainer:** Dharavath Satvik  
 **Last updated:** 2026-11-14  
-**Status:** Active refactor — one canonical draft PR
+**Status:** Active maintenance — one persistent review branch
 
 ## Purpose
 
@@ -56,12 +56,34 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 
 ## Current status — 2026-11-14
 
-- The default branch contains a short original README plus portfolio-wide audit notes that are not specific to Dream-Catcher.
-- PR #1 is closed. PR #2 is the only active draft and uses the single working side branch.
-- All Dream-Catcher edits for this task stay on `research/social-company-import-foundation`; do not create another side branch.
+- PR #2 was merged on 2026-11-14. Its working branch remains available and is the only side branch used for the next review cycle.
+- All Dream-Catcher edits stay on `research/social-company-import-foundation`; do not create another side branch.
 - X/LinkedIn follow lists are out of scope. The update feed currently has 23 sourced entries covering all 21 company groups; it is a seed snapshot, not an exhaustive historical archive.
 - No recruiter identities have been invented. The recruiting-channel file records official application routes; `data/recruiters.csv` is the dedicated recruiter register and currently contains only its schema because no individual recruiter record has yet been verified from an official/public professional source.
-- The original README text is restored without AI notes.
+- The README now explains the project in simple language and links to the core data files.
+
+## Public and private repository rules
+
+- The public repository inventory contains public repositories only. It includes public archived repositories with `archived=true`.
+- Private repositories are not deleted, changed or listed by name in this public project. This protects their visibility and contents.
+- The company fit matrix contains only active public repositories. Archived public projects remain in the inventory for preservation, not as active targets.
+- A visibility/archival check found 13 private repositories and 2 archived public repositories among the 61 accessible account repositories on 2026-11-14.
+
+## Interview practice
+
+- `data/interviews.csv` contains 42 original practice prompts: one core and one hard prompt for each of the 21 employer groups.
+- These are company-aligned learning exercises, not verified company favourites or leaked interview questions.
+- Every row provides a recommended solution, two alternative approaches, complexity/trade-offs, edge cases and follow-up questions.
+- Keep new prompts original, cite the official company domain page for the technical area, and do not claim a question was asked by a company without reliable public evidence.
+
+## Automated refresh
+
+- `scripts/refresh.py` refreshes public GitHub repository metadata and imports items from enabled official RSS/Atom feeds.
+- `data/feeds.csv` lists all 21 employer groups. Only configured official feeds are fetched; companies without a verified feed remain manual.
+- Imported feed items keep their original source URL and are marked `feed_imported_needs_review`; no AI-generated summary is invented.
+- Source failures preserve the previous data and are recorded in `data/refresh_status.csv`.
+- `.github/workflows/refresh.yml` is scheduled daily at 04:30 UTC and can also be run manually. It writes only to `research/social-company-import-foundation`, never to `main`.
+- GitHub scheduled runs start only after this workflow is merged into the default branch. Until then, it can be run manually from the side branch after the workflow file exists there.
 
 ## Work log
 
@@ -74,9 +96,15 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Validation performed: source/link spot-checks and structural CSV review. No application build or runtime tests apply to this documentation/data-only change.
 
 ### Branch and review rule
-- Use only `research/social-company-import-foundation` while PR #2 remains open.
+- Use only `research/social-company-import-foundation` for all follow-up work.
 - Make one focused change per user prompt, commit it to this branch, validate it, and stop for the user's review.
 - Do not create another side branch, merge the PR, or change `main` without an explicit request.
+
+### 2026-11-14 — Repository visibility and interview bank
+- Removed private and archived repositories from the active public company-fit matrix. No repository was deleted or changed.
+- Added a public repository inventory with visibility and archived flags; private repository names are not published.
+- Added 42 company-aligned practice questions with recommended solutions, two alternatives and trade-offs.
+- Added official feed configuration and a scheduled refresh workflow that writes to the same review branch only.
 
 ### Recruiter register
 - `data/recruiters.csv` is intentionally header-only until named talent-acquisition professionals can be verified from public professional sources. Do not fill it with guessed names or private contact details.
