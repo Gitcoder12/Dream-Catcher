@@ -59,7 +59,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Two draft PRs existed: PR #1 contained a broad 16-file documentation rollout; PR #2 contained a smaller overlapping company list.
 - This refactor uses PR #2's branch as the single working branch and consolidates the company/recruiter/update data into one structure.
 - X/LinkedIn follow lists are out of scope. Latest public company updates are included when an official source and date are available.
-- No recruiter identities have been invented. The recruiting-channel file records official application routes; individual recruiter records require a verifiable public source.
+- No recruiter identities have been invented. The recruiting-channel file records official application routes; `data/recruiters.csv` is the dedicated recruiter register and currently contains only its schema because no individual recruiter record has yet been verified from an official/public professional source.
 - The original README text is restored without AI notes.
 
 ## Work log
@@ -71,3 +71,6 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Moved AI-maintained notes into this file and removed the AI addendum from README.
 - Closed the duplicate documentation PR after preserving the relevant company/repository research in the canonical structure.
 - Validation performed: source/link spot-checks and structural CSV review. No application build or runtime tests apply to this documentation/data-only change.
+
+### Recruiter register
+- `data/recruiters.csv` is intentionally header-only until named talent-acquisition professionals can be verified from public professional sources. Do not fill it with guessed names or private contact details.
