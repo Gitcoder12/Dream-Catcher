@@ -1,0 +1,22 @@
+company_id,company_name,channel_type,channel_name,official_url,region,checked_date,verification_status,notes
+openai,OpenAI,careers_portal,OpenAI Careers,https://openai.com/careers/,global,2026-11-14,official_company_careers_url,Apply through official vacancies; no named recruiter verified
+google-deepmind,Google DeepMind,careers_portal,Google DeepMind Careers,https://deepmind.google/about/careers/,global,2026-11-14,official_company_careers_url,Check role team location and eligibility
+anthropic,Anthropic,careers_portal,Anthropic Careers,https://www.anthropic.com/careers,global,2026-11-14,official_company_careers_url,Apply through official vacancies; no named recruiter verified
+meta,Meta,careers_portal,Meta Careers,https://www.metacareers.com/,global,2026-11-14,official_company_careers_url,Use official role listing and application route
+microsoft,Microsoft,careers_portal,Microsoft Careers,https://careers.microsoft.com/,global,2026-11-14,official_company_careers_url,Search AI research engineering and security roles
+amazon-aws,Amazon / AWS,careers_portal,Amazon Jobs,https://www.amazon.jobs/,global,2026-11-14,official_company_careers_url,Filter for Amazon and AWS teams separately
+nvidia,NVIDIA,careers_portal,NVIDIA Careers,https://www.nvidia.com/en-us/about-nvidia/careers/,global,2026-11-14,official_company_careers_url,Search robotics systems and AI infrastructure
+qualcomm,Qualcomm,careers_portal,Qualcomm Careers,https://careers.qualcomm.com/,global,2026-11-14,official_company_careers_url,Search India and international role locations
+ibm,IBM,careers_portal,IBM Careers,https://www.ibm.com/careers,global,2026-11-14,official_company_careers_url,Use official role and country filters
+hugging-face,Hugging Face,careers_portal,Hugging Face Jobs,https://huggingface.co/jobs,global,2026-11-14,official_company_jobs_page,Platform jobs listing; verify employer and status
+databricks,Databricks,careers_portal,Databricks Careers,https://www.databricks.com/company/careers,global,2026-11-14,official_company_careers_url,Check engineering and research openings
+google-cloud,Google Cloud,careers_portal,Google Careers,https://careers.google.com/,global,2026-11-14,official_company_careers_url,Search Google Cloud organisation and role team
+github,GitHub,careers_portal,GitHub Careers,https://www.github.careers/,global,2026-11-14,official_company_careers_url,Search developer platform and AI engineering
+figure-ai,Figure AI,careers_portal,Figure Careers,https://www.figure.ai/careers,global,2026-11-14,official_company_careers_url,Robotics and embodied AI roles
+boston-dynamics,Boston Dynamics,careers_portal,Boston Dynamics Careers,https://bostondynamics.com/careers/,global,2026-11-14,official_company_careers_url,Robotics controls and autonomy roles
+skild-ai,Skild AI,company_site,Skild AI official site,https://www.skild.ai/,global,2026-11-14,careers_url_not_confirmed,Do not assume a dedicated careers page until confirmed
+physical-intelligence,Physical Intelligence,company_site,Physical Intelligence official site,https://www.pi.website/,global,2026-11-14,careers_url_not_confirmed,Do not assume a dedicated careers page until confirmed
+agility-robotics,Agility Robotics,careers_portal,Agility Robotics Careers,https://www.agilityrobotics.com/careers,global,2026-11-14,official_company_careers_url,Robotics and deployment roles
+abb-robotics,ABB Robotics,careers_portal,ABB Careers,https://global.abb/group/en/careers,global,2026-11-14,official_company_careers_url,Filter for robotics and country
+tcs,Tata Consultancy Services,careers_portal,TCS Careers,https://www.tcs.com/careers,India,2026-11-14,official_company_careers_url,Check entry-level and experienced hiring separately
+tata-elxsi,Tata Elxsi,careers_portal,Tata Elxsi Careers,https://www.tataelxsi.com/careers,India,2026-11-14,official_company_careers_url,Check role and location before applying

@@ -1,17 +1,41 @@
 # Dream-Catcher
-My list of dream companies to work for. 
 
+A simple tracker of companies I want to work for.
 
----
+I use it to research companies, follow their public work, find official career pages, and connect my projects to the skills they may need.
 
-## AI-maintained project notes (secondary — 2026-11-13)
+## What is here
 
-The original maintainer-authored description above is preserved. This section adds pointers to the portfolio research and independent review system.
+- [Companies](companies.md) — target companies and their technical areas.
+- [Recent updates](data/updates.csv) — public company news with source links.
+- [Careers](data/careers.csv) — official hiring pages.
+- [People](data/people.csv) — public leaders and credited project contributors.
+- [Recruiters](data/recruiters.csv) — named recruiters only when verified.
+- [Project fit](repo-fit.md) — possible links between my GitHub projects and company work.
 
-- [Company intelligence](COMPANY_INTELLIGENCE.md) records public company projects, leadership/team context and official sources; re-check all roles and projects before applying.
-- [Repository target matrix](REPOSITORY_TARGET_MATRIX.md) maps projects to potential employer/technical fits. It does not claim customer adoption, partnership or endorsement.
-- [Model audit queue](MODEL_AUDIT_QUEUE.md) coordinates independent review across all account repositories.
-- [Data provenance priority register](DATA_PROVENANCE_PRIORITY.md) highlights records and simulation data that need careful source checks.
-- [Master model review prompt](MODEL_REVIEW_PROMPT.md) defines the read-only audit protocol.
-- [README restoration log](README_RESTORATION_LOG.md) records original README Git-history baselines and documentation-branch synchronisation.
-- [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) is the local review entry point for this repository.
+## Data
+
+The current research snapshot covers:
+
+- 21 companies
+- 23 public updates
+- 21 official careers routes
+- 10 public people records
+- 61 project-to-company research matches
+
+The recruiter list is empty until I can verify real public profiles. I will not guess names or contact details.
+
+## How I use it
+
+1. Pick a company.
+2. Read its recent public work.
+3. Check its official careers page for open roles.
+4. Compare the role requirements with my projects.
+5. Improve the projects with real code, tests and evidence.
+
+## Accuracy rules
+
+- Keep a source link for every public update.
+- Do not invent jobs, people, contact details or company relationships.
+- A careers page does not mean a job is open.
+- A project match is a research idea, not an endorsement or hiring signal.
