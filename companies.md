@@ -1,10 +1,10 @@
-# Company Directory
+# Companies
 
 **Owner:** Dharavath Satvik  
 **Snapshot:** 2026-11-14  
 **Coverage:** 21 selected employer groups across frontier AI, AI infrastructure, developer tools, robotics and Indian engineering.
 
-This is a curated target list, not a ranking, complete market map, list of companies the maintainer follows, or evidence of hiring interest. The canonical structured records live in [data/companies.csv](data/companies.csv). Public updates are in [data/company_updates.csv](data/company_updates.csv); official hiring routes are in [data/recruiting_channels.csv](data/recruiting_channels.csv); public leadership/project-credit records are in [data/public_people.csv](data/public_people.csv); named public recruiters, when verified, belong in [data/recruiters.csv](data/recruiters.csv).
+This is a curated target list, not a ranking, complete market map, list of companies the maintainer follows, or evidence of hiring interest. The canonical structured records live in [data/companies.csv](data/companies.csv). Public updates are in [data/updates.csv](data/updates.csv); official hiring routes are in [data/careers.csv](data/careers.csv); public leadership/project-credit records are in [data/people.csv](data/people.csv); named public recruiters, when verified, belong in [data/recruiters.csv](data/recruiters.csv).
 
 | Company | Main technical areas to investigate | Official careers / hiring route | Latest-update tracking |
 |---|---|---|---|
@@ -30,7 +30,7 @@ This is a curated target list, not a ranking, complete market map, list of compa
 | Tata Consultancy Services | Enterprise AI, industrial intelligence, cloud and engineering | https://www.tcs.com/careers | TCS newsroom |
 | Tata Elxsi | Automotive software, embedded systems, aerospace, MedTech and AI | https://www.tataelxsi.com/careers | Official press releases |
 
-## How to use this directory
+## How to use this list
 
 1. Open the official careers route and confirm a live vacancy, location, level and eligibility.
 2. Read the current role description; map its requirements to specific code/tests/papers in the repository matrix.

@@ -1,4 +1,4 @@
-# Repository-to-Company Target Matrix
+# Repository Fit
 
 **Snapshot:** 2026-11-14. These are provisional skills-fit hypotheses, not verified employer requirements, endorsements, customer relationships or evidence that every repository is currently functional. Validate the exact repository before using a mapping in an application.
 
