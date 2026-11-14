@@ -59,7 +59,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - The default branch contains a short original README plus portfolio-wide audit notes that are not specific to Dream-Catcher.
 - Two draft PRs existed: PR #1 contained a broad 16-file documentation rollout; PR #2 contained a smaller overlapping company list.
 - This refactor uses PR #2's branch as the single working branch and consolidates the company/recruiter/update data into one structure.
-- X/LinkedIn follow lists are out of scope. The update feed currently has 13 sourced entries across a subset of the 21 company groups; it is a seed snapshot, not exhaustive coverage.
+- X/LinkedIn follow lists are out of scope. The update feed currently has 23 sourced entries covering all 21 company groups; it is a seed snapshot, not an exhaustive historical archive.
 - No recruiter identities have been invented. The recruiting-channel file records official application routes; `data/recruiters.csv` is the dedicated recruiter register and currently contains only its schema because no individual recruiter record has yet been verified from an official/public professional source.
 - The original README text is restored without AI notes.
 
