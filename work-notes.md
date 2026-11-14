@@ -90,7 +90,7 @@ It is a research aid, not an applicant-tracking system, employee database, endor
 - Imported feed items keep their original source URL and are marked `feed_imported_needs_review`; no AI-generated summary is invented.
 - Source failures preserve the previous data and are recorded in `data/refresh_status.csv`.
 - `.github/workflows/refresh.yml` is scheduled daily at 04:30 UTC and can also be run manually. It writes only to `research/social-company-import-foundation`, never to `main`.
-- GitHub scheduled runs start only after this workflow is merged into the default branch. Until then, it can be run manually from the side branch after the workflow file exists there.
+- Both scheduled runs and the manual Run workflow option require this workflow file to be merged into the default branch. After that, choose `research/social-company-import-foundation` in the branch selector; the script writes updates only to that branch.
 
 ## Work log
 
