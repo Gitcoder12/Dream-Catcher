@@ -8,6 +8,7 @@ I use it to research companies, follow their public work, find official career p
 
 - [Companies](companies.md) — target companies and their technical areas.
 - [Recent updates](data/updates.csv) — public company news with source links.
+- [Update sources](data/feeds.csv) — official company feeds and manual source pages.
 - [Interview practice](data/interviews.csv) — core and hard questions with solutions and alternatives.
 - [Public repositories](data/repos.csv) — public repository details and archive status.
 - [Careers](data/careers.csv) — official hiring pages.
