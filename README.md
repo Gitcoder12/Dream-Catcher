@@ -44,3 +44,22 @@ The scheduled GitHub Actions workflow runs daily after it is enabled on the defa
 - A careers page does not mean a job is open.
 - A project match is a research idea, not an endorsement or hiring signal.
 - Do not publish private repository names or details.
+
+---
+
+## Engineering Audit & Handover — 2026-11-17
+
+**Reviewed commit:** `57f7b62c50d616a079424a2cd762d75a71fa6102` (`main`). Static inspection covered `scripts/refresh.py`, source CSV structure, and README workflow claims; runtime refresh was not executed.
+
+### Confirmed findings
+- The refresh script imports public repository metadata and configured RSS/Atom items; feed entries retain source links and are marked for human review, consistent with the README's accuracy rules.
+- The README states that scheduled updates write only to an existing review branch and never to `main`. This branch restriction is an important safety invariant; preserve it.
+- The reviewed tree contains no automated test suite for feed parsing, metadata refresh, or CSV round-tripping.
+- The README's snapshot counts are time-dependent and should be regenerated from the current CSV files rather than treated as permanent totals.
+
+### Next actions
+1. Add fixture-based tests for RSS/Atom parsing, malformed feeds, date handling, duplicate IDs, and failed sources.
+2. Verify the scheduled workflow's target branch and permissions before enabling or changing its schedule.
+3. Reconcile README counts from the CSV data in the same refresh process and keep every imported update in human-review status.
+
+**Verification status:** static source/data inspection only; scheduled workflow, live feed imports, and tests remain unverified.
