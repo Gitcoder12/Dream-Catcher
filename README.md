@@ -63,3 +63,10 @@ The scheduled GitHub Actions workflow runs daily after it is enabled on the defa
 3. Reconcile README counts from the CSV data in the same refresh process and keep every imported update in human-review status.
 
 **Verification status:** static source/data inspection only; scheduled workflow, live feed imports, and tests remain unverified.
+
+---
+
+## Examples Used
+- Tracking a target company's official career page
+- Reviewing a sourced company update before adding it to the feed
+- Mapping a portfolio project to a role's published technical requirements
