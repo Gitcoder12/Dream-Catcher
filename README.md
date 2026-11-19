@@ -70,3 +70,27 @@ The scheduled GitHub Actions workflow runs daily after it is enabled on the defa
 - Tracking a target company's official career page
 - Reviewing a sourced company update before adding it to the feed
 - Mapping a portfolio project to a role's published technical requirements
+
+
+---
+
+## Comparison with Existing Open-Source Projects and Resources
+
+Dream-Catcher is documented as a personal company-research and job-preparation tracker combining target companies, official careers routes, sourced updates, interview practice and project-fit notes. These resources provide adjacent job-discovery and interview-preparation references.
+
+| Project / resource | Established focus | Relationship to Dream-Catcher |
+|---|---|---|
+| [Simplify New Grad Positions](https://github.com/SimplifyJobs/New-Grad-Positions) | Community-maintained list of early-career job opportunities | A job-listing resource; Dream-Catcher's distinction is maintaining a personal company dossier and linking company research to projects and interview preparation. |
+| [The Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | Curated technical interview preparation material | A broad interview-learning resource; Dream-Catcher's interview prompts are organized around selected target companies and their technical context. |
+| [GitHub Search](https://github.com/cli/cli) | Command-line access to GitHub search and repository workflows | A developer research tool rather than a career tracker; Dream-Catcher uses public repository metadata as one input to project-fit research. |
+
+### Where Dream-Catcher is different
+- **Company-centred workspace:** company updates, official careers routes, interview prompts, public repositories and project-fit notes are grouped by target employer.
+- **Sourced research snapshot:** the README describes keeping source URLs and treating new feed items as review-needed rather than automatically verified.
+- **Project-to-role mapping:** the intended workflow connects public portfolio work with a company's public technical areas as a research hypothesis, not a hiring prediction.
+
+### Where established resources are stronger
+Job lists and interview handbooks have broader community contributions and content depth. Dream-Catcher's advantage is personal organization and traceability, not job-market coverage or guaranteed hiring relevance.
+
+### Evidence and privacy requirements
+Keep company updates linked to official or clearly attributed sources, label feed items for human review, and never infer that a job is open from a careers page alone. Do not invent recruiter identities or publish private repository information. Project-fit notes are hypotheses, not endorsements or evidence of employer interest. This is a workflow comparison, not a job-placement benchmark.
