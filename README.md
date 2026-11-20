@@ -4,6 +4,13 @@ A simple tracker of companies I want to work for.
 
 I use it to research companies, follow their public work, find official career pages, prepare for interviews, and connect my public projects to the skills they may need.
 
+
+## Open / access this repository
+
+Dream-Catcher is a company-research workspace made of Markdown and CSV records, not a browser website. Open the README and linked files on GitHub to browse the company, careers, interview, and project-fit information. There is no localhost site to launch.
+
+The repository refresh is handled by its configured GitHub Actions workflow. The refresh script and workflow are not a hosted dashboard; new feed entries remain subject to human review.
+
 ## What is here
 
 - [Companies](companies.md) — target companies and their technical areas.
