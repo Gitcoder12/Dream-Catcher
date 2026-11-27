@@ -30,6 +30,11 @@ This is a curated target list, not a ranking, complete market map, list of compa
 | Tata Consultancy Services | Enterprise AI, industrial intelligence, cloud and engineering | https://www.tcs.com/careers | TCS newsroom |
 | Tata Elxsi | Automotive software, embedded systems, aerospace, MedTech and AI | https://www.tataelxsi.com/careers | Official press releases |
 
+| Mistral AI | Frontier models, LLM science, deployment and AI products | https://mistral.ai/careers/ | Official news and research |
+| Cerebras | AI accelerators, inference systems, cloud and distributed systems | https://www.cerebras.ai/open-positions | Official blog and open positions |
+| Groq | Low-latency inference, AI systems and developer infrastructure | Official site; careers route to verify | Official news and product updates |
+| OpenRouter | Model routing, provider ecosystem, platform reliability and developer products | https://openrouter.ai/careers/ | Official blog and documentation |
+
 ## How to use this list
 
 1. Open the official careers route and confirm a live vacancy, location, level and eligibility.
