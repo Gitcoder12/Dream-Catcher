@@ -7,6 +7,7 @@ I use it to research companies, follow their public work, find official career p
 ## What is here
 
 - [Companies](companies.md) — target companies and their technical areas.
+- [Company fit dossiers](company-fit.md) — role-family fit, matching public projects, evidence strength and skill gaps for Mistral AI, Cerebras, Groq and OpenRouter.
 - [Recent updates](data/updates.csv) — public company news with source links.
 - [Update sources](data/feeds.csv) — official company feeds and manual source pages.
 - [Interview practice](data/interviews.csv) — core and hard questions with solutions and alternatives.
@@ -14,7 +15,7 @@ I use it to research companies, follow their public work, find official career p
 - [Careers](data/careers.csv) — official hiring pages.
 - [People](data/people.csv) — public leaders and credited project contributors.
 - [Recruiters](data/recruiters.csv) — named recruiters only when verified.
-- [Project fit](repo-fit.md) — possible links between active public projects and company work.
+- [Project fit](repo-fit.md) — cross-company mapping between active public projects and company work.
 
 ## Data
 
@@ -25,7 +26,7 @@ The current research snapshot covers:
 - 46 active public repository targets
 - 48 public repositories in the inventory, including 2 archived repositories
 - 23 sourced company updates before the first automatic feed refresh
-- 21 official careers routes
+- 22 companies with a verified official careers or open-positions route; 3 entries remain homepage-only pending verification
 
 Private repositories are not listed here. They remain private and are not changed by this project. Archived public repositories are kept in the inventory but are not treated as active portfolio targets.
 
@@ -44,6 +45,8 @@ The scheduled GitHub Actions workflow runs daily after it is enabled on the defa
 - A careers page does not mean a job is open.
 - A project match is a research idea, not an endorsement or hiring signal.
 - Do not publish private repository names or details.
+- Distinguish direct project evidence from adjacent transferable skills and explicit gaps.
+- Re-check vacancy status, location, seniority and eligibility on the employer's official page before applying.
 
 ---
 
@@ -70,7 +73,6 @@ The scheduled GitHub Actions workflow runs daily after it is enabled on the defa
 - Tracking a target company's official career page
 - Reviewing a sourced company update before adding it to the feed
 - Mapping a portfolio project to a role's published technical requirements
-
 
 ---
 
