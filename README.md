@@ -20,7 +20,7 @@ I use it to research companies, follow their public work, find official career p
 
 The current research snapshot covers:
 
-- 21 target companies
+- 25 target companies
 - 42 original interview practice questions across 21 companies
 - 46 active public repository targets
 - 48 public repositories in the inventory, including 2 archived repositories
