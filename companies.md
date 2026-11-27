@@ -2,7 +2,7 @@
 
 **Owner:** Dharavath Satvik  
 **Snapshot:** 2026-11-14  
-**Coverage:** 21 selected employer groups across frontier AI, AI infrastructure, developer tools, robotics and Indian engineering.
+**Coverage:** 25 selected employer groups across frontier AI, AI infrastructure, developer tools, robotics and Indian engineering.
 
 This is a curated target list, not a ranking, complete market map, list of companies the maintainer follows, or evidence of hiring interest. The canonical structured records live in [data/companies.csv](data/companies.csv). Public updates are in [data/updates.csv](data/updates.csv); interview practice is in [data/interviews.csv](data/interviews.csv); public repository metadata is in [data/repos.csv](data/repos.csv); official hiring routes are in [data/careers.csv](data/careers.csv); public leadership/project-credit records are in [data/people.csv](data/people.csv); named public recruiters, when verified, belong in [data/recruiters.csv](data/recruiters.csv).
 
@@ -38,4 +38,4 @@ This is a curated target list, not a ranking, complete market map, list of compa
 4. Use only public recruiting channels and publicly identified recruiters with source evidence.
 5. Treat all repository matches as hypotheses until the actual code and evidence are reviewed.
 
-**Recruiter-data standard:** named recruiter records are added only when a person publicly identifies as recruiting/talent acquisition for the company and the public profile or official source can be checked. The recruiter register is currently empty; the 21 official hiring routes are already recorded separately. No private contact information is collected.
+**Recruiter-data standard:** named recruiter records are added only when a person publicly identifies as recruiting/talent acquisition for the company and the public profile or official source can be checked. The recruiter register is currently empty; the official hiring routes are recorded separately; Groq's dedicated careers route remains unverified. No private contact information is collected.
