@@ -1,6 +1,6 @@
 # Repository Fit
 
-**Snapshot:** 2026-11-14. This public matrix contains 46 public, active repositories only. It excludes private repositories and archived repositories. Private repositories remain private and untouched; archived public repositories remain recorded in [data/repos.csv](data/repos.csv) with their archived status. These matches are provisional skills-fit hypotheses, not verified employer requirements, endorsements, customer relationships or evidence that every repository is currently functional.
+**Snapshot:** 2026-11-28. This public matrix contains 46 public, active repositories only. It excludes private repositories and archived repositories. Private repositories remain private and untouched; archived public repositories remain recorded in [data/repos.csv](data/repos.csv) with their archived status. These matches are provisional skills-fit hypotheses, not verified employer requirements, endorsements, customer relationships or evidence that every repository is currently functional.
 
 | Repository | Target companies | Technical evidence to build |
 |---|---|---|
@@ -20,20 +20,20 @@
 | [Lorezone](https://github.com/Gitcoder12/Lorezone) | Microsoft; Google Cloud; Amazon / AWS | web APIs; PostgreSQL; authentication security |
 | [ProjectXP](https://github.com/Gitcoder12/ProjectXP) | GitHub; Microsoft; Databricks | project tracking; browser persistence; accessible UX |
 | [EMU-OPS](https://github.com/Gitcoder12/EMU-OPS) | Qualcomm; NVIDIA; GitHub | CHIP-8 execution; memory/register correctness; emulator tests |
-| [AI-Box](https://github.com/Gitcoder12/AI-Box) | OpenAI; Anthropic; Hugging Face | multi-provider adapters; secure BYOK; comparative evaluation |
+| [AI-Box](https://github.com/Gitcoder12/AI-Box) | OpenAI; Anthropic; Hugging Face; OpenRouter; Mistral AI; Groq | multi-provider adapters; secure BYOK; comparative evaluation; provider failure handling |
 | [Progenerator](https://github.com/Gitcoder12/Progenerator) | GitHub; Hugging Face; OpenAI | public code search; topic similarity; grounded generation |
-| [Truthstream](https://github.com/Gitcoder12/Truthstream) | OpenAI; Anthropic; IBM | claim/evidence; provenance; contradiction and calibration |
+| [Truthstream](https://github.com/Gitcoder12/Truthstream) | OpenAI; Anthropic; IBM; Mistral AI | claim/evidence; provenance; contradiction and calibration |
 | [Dopa-Direct](https://github.com/Gitcoder12/Dopa-Direct) | Microsoft; Google Cloud; Tata Consultancy Services | local-first CLI; focus state; privacy |
 | [High-Sight](https://github.com/Gitcoder12/High-Sight) | Microsoft; Qualcomm; Google Cloud | screen-session awareness; accessibility; privacy |
 | [Space-Frame](https://github.com/Gitcoder12/Space-Frame) | Google DeepMind; NVIDIA; IBM | browser visualisation; astronomy data; scale representation |
-| [RepoForge](https://github.com/Gitcoder12/RepoForge) | GitHub; OpenAI; Anthropic | repository analysis; safe patching; CI and human approval |
-| [Commander](https://github.com/Gitcoder12/Commander) | OpenAI; Anthropic; Microsoft | specialist agents; structured output; ranking and cost controls |
+| [RepoForge](https://github.com/Gitcoder12/RepoForge) | GitHub; OpenAI; Anthropic; OpenRouter; Mistral AI; Groq; Cerebras | repository analysis; safe patching; CI and human approval; model-provider compatibility and usage metering |
+| [Commander](https://github.com/Gitcoder12/Commander) | OpenAI; Anthropic; Microsoft; Mistral AI; OpenRouter; Groq | specialist agents; structured output; ranking and cost controls |
 | [Chaos-Control](https://github.com/Gitcoder12/Chaos-Control) | Databricks; Amazon / AWS; Google Cloud | async ingestion; source adapters; resilience |
 | [Ember](https://github.com/Gitcoder12/Ember) | Tata Elxsi; Tata Consultancy Services; Amazon / AWS | sensor validation; thermal prediction; calibration |
-| [ARK](https://github.com/Gitcoder12/ARK) | OpenAI; Anthropic; Google DeepMind; NVIDIA | agent safety; robustness; benchmark design |
+| [ARK](https://github.com/Gitcoder12/ARK) | OpenAI; Anthropic; Google DeepMind; NVIDIA; Mistral AI; Groq; OpenRouter | agent safety; robustness; benchmark design; hosted-model evaluation and usage telemetry |
 | [Overdrive](https://github.com/Gitcoder12/Overdrive) | Databricks; NVIDIA; Tata Consultancy Services | operations research; simulation; optimisation metrics |
-| [TokenBurst](https://github.com/Gitcoder12/TokenBurst) | NVIDIA; Qualcomm; Hugging Face | C++ tokenisation; CPU/GPU; reproducible benchmarks |
-| [Resonance](https://github.com/Gitcoder12/Resonance) | OpenAI; Anthropic; Google Cloud | model routing; cost/latency/quality evaluation |
+| [TokenBurst](https://github.com/Gitcoder12/TokenBurst) | NVIDIA; Qualcomm; Hugging Face; Cerebras; Groq | C++ tokenisation; CPU/GPU; reproducible benchmarks |
+| [Resonance](https://github.com/Gitcoder12/Resonance) | OpenAI; Anthropic; Google Cloud; Mistral AI; Groq; OpenRouter | model routing; cost/latency/quality evaluation; provider reliability and failover benchmarks |
 | [dspy](https://github.com/Gitcoder12/dspy) | Databricks; Microsoft; OpenAI | declarative LM programming; metric-driven optimisation |
 | [lm-evaluation-harness](https://github.com/Gitcoder12/lm-evaluation-harness) | Hugging Face; OpenAI; Anthropic | benchmark config; provenance; reproducible scoring |
 | [vllm](https://github.com/Gitcoder12/vllm) | NVIDIA; Google Cloud; Amazon / AWS | LLM serving; GPU kernels; throughput and tail latency |
@@ -45,12 +45,14 @@
 | [Robo-Drafter](https://github.com/Gitcoder12/Robo-Drafter) | NVIDIA; Skild AI; Boston Dynamics; ABB Robotics; Agility Robotics | robot optimisation; simulation; reproducibility |
 | [Hydro-Glance](https://github.com/Gitcoder12/Hydro-Glance) | Google Cloud; Microsoft; Tata Consultancy Services | hydrology time series; anomaly detection; sensor provenance |
 | [Neura-Mapper](https://github.com/Gitcoder12/Neura-Mapper) | NVIDIA; Google DeepMind; IBM | 3D pathfinding; validation; clinical-scope boundaries |
-| [Data-Center-Planner](https://github.com/Gitcoder12/Data-Center-Planner) | Amazon / AWS; Microsoft; Google Cloud; NVIDIA | thermal simulation; rack constraints; synthetic-data labelling |
+| [Data-Center-Planner](https://github.com/Gitcoder12/Data-Center-Planner) | Amazon / AWS; Microsoft; Google Cloud; NVIDIA; Cerebras | thermal simulation; rack constraints; synthetic-data labelling; capacity-planning hypotheses |
 | [Poke-Switch](https://github.com/Gitcoder12/Poke-Switch) | GitHub; Microsoft; Meta | catalogue UX; community requests; moderation |
-| [Hardware-Box](https://github.com/Gitcoder12/Hardware-Box) | ABB Robotics; Tata Elxsi; NVIDIA; Qualcomm | CAD/PCB; mesh validation; tolerance analysis |
+| [Hardware-Box](https://github.com/Gitcoder12/Hardware-Box) | ABB Robotics; Tata Elxsi; NVIDIA; Qualcomm; Cerebras | CAD/PCB; mesh validation; tolerance analysis; engineering automation |
 | [Dream-Catcher](https://github.com/Gitcoder12/Dream-Catcher) | OpenAI; Google DeepMind; Anthropic; Microsoft; NVIDIA | company intelligence; source freshness; role mapping |
 | [Google-Colab-Programs](https://github.com/Gitcoder12/Google-Colab-Programs) | Google DeepMind; NVIDIA; Hugging Face | reproducible notebooks; data citations; pedagogy |
 
 ## Application rule
 
 For each target, select a current public job description and map its requirements to exact code, tests, benchmarks or reproducible reports in the repository. Do not list a company on a CV as a customer or partner unless a real relationship exists. Upstream-derived repositories must preserve original authorship and project provenance.
+
+For the four AI infrastructure targets, use [company-fit.md](company-fit.md) for a deeper role-family assessment and explicit gaps. Prefer one or two well-evidenced project matches over attaching every repository to every company.
