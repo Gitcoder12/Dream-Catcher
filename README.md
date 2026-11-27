@@ -94,3 +94,9 @@ Job lists and interview handbooks have broader community contributions and conte
 
 ### Evidence and privacy requirements
 Keep company updates linked to official or clearly attributed sources, label feed items for human review, and never infer that a job is open from a careers page alone. Do not invent recruiter identities or publish private repository information. Project-fit notes are hypotheses, not endorsements or evidence of employer interest. This is a workflow comparison, not a job-placement benchmark.
+
+---
+
+## Repository navigation
+
+[Alphabetical file index](FILE_INDEX.md)
